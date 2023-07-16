@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--//responsividade da página = visivel//-->
+
+    <link rel="shortcut icon" type="imgage/png" href="icon/iconmonstr-star-thin.svg">
+    
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">  <!--reset = corrige alguns bugs que existem nas estilizações padrões dos navegadores-->
+    <meta name="author" content="Kelly Kilma">
+    <meta name="description" content="Site pessoal desenvolvido como portifolio para conclusão do curso de Programação Web para Iniciantes - Womakers Code">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="/index.js"></script>
+
+    <title>Projeto Womakers Code - Kelly Kilma</title>
+</head>
+
+<body>
+    <nav class="principal">
+        <ul>
+            <li>
+                <a href="#biografia">Biografia</a>
+            </li>
+    
+            <li>
+                <a href="#contextoHistorico">Contexto histórico</a>
+            </li>
+    
+            <li>
+                <a href="#tecnologia">Tecnologia</a>
+            </li>
+        
+            <li>
+                <a href="#paraSaberMais">Para saber mais</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <section id="biografia" >
+            <h2>Biografia</h2>
+            <div class="conteudoBiografia">
+                <p>Mae Carol Jemison (Decatur, 17 de outubro de 1956) é uma médica, engenheira e ex-astronauta estadunidense. Foi a primeira mulher negra a ir para o espaço, quando serviu como especialista de missão a bordo do ônibus espacial Endeavour. Jemison se uniu ao grupo de astronautas da NASA de 1987 e serviu na missão STS-47, na qual orbitou a Terra dos dias 12 a 20 de setembro de 1992.</p>
+            </div>
+
+            <div class="conteudoBiografia">
+                <img class="imagemBiografia" src="./img/Mae_Jemison_2013.jpg" alt="Mae Carol Jemison em 2013">
+            </div>
+        </section>
+
+        <section id="contextoHistorico">
+            <h2>Contexto histórico</h2>
+            <p>Quando Mae Carol Jemison nasceu, a NASA não permitia que mulheres fossem astronautas. Mulheres negras, como era o caso de Jemison, então, nem se fala. Mas isso não impediu que ela, crescendo em Chicago, sonhasse com ir para o espaço: determinada, ela se formou em Engenharia Química na Universidade Stanford e, depois, em Medicina na Universidade Cornell
+            </p>
+
+            <p>Em 4 de junho de 1987, Mae Jemison se tornou a primeira mulher afro-americana a ser admitida no programa de treinamento de astronautas da NASA e, em 1992, foi a primeira mulher afro-americana a viajar para o espaço. Ela viajou a bordo do ônibus espacial Endeavour, na missão STS-47 e, durante os oito dias em que esteve no espaço, Mae Jemison conduziu experimentos sobre falta de peso e enjoo de movimento na tripulação e em si mesma, totalizando 190 horas no espaço.
+            </p>
+
+            <img class="imagemContextoHistorico" src="./img/dr-mae-c-jemison-first-african-american-woman-in-space.jpg" alt="foto da primeira mulher negra a ir para o espaço">
+        </section>   
+
+        <section id="tecnologia">
+            <h2>Tecnologia</h2>
+            <p>Depois de servir na NASA, de 1987 a 1993, Jemison fundou o Jemison Group, Inc., que desenvolveu o ALAFIYA, um sistema de telecomunicações por satélite. O objetivo deste sistema era melhorar os cuidados médicos nos países em desenvolvimento.
+            </p>
+                        
+            <p>Foi professora no programa de estudos ambientais da Universidade de Dartmouth, onde dirigiu o Instituto Jemison para o avanço tecnológico nos países em desenvolvimento. Entre seus projetos atuais, há vários que se concentram na melhoria da saúde na África e no avanço das tecnologias nos países em desenvolvimento.
+            </p>
+
+            <p>Também foi professora no programa de estudos ambientais da Universidade de Dartmouth, onde dirigiu o Instituto Jemison para o avanço tecnológico nos países em desenvolvimento. Entre seus projetos atuais, há vários que se concentram na melhoria da saúde na África e no avanço das tecnologias nos países em desenvolvimento.
+            </p>
+
+            <p>Jemison foi professora na Cornell University e no Dartmouth College, de 1995 a 2002. Ela participa de várias organizações científicas como a American Medical Association, a American Chemical Society, a Association for Space Explorers e a American Association for the Advancement of Science.
+            </p>
+
+            <img class="imagemTecnologia" src="./img/astronaut-mae-jemison-working-in-spacelab-j.jpg" alt="Mae Carol Jemison em nave espacial">
+        </section>
+        
+        <section id="paraSaberMais">
+                    <h2>Para saber mais:</h2>
+                    <iframe class="videoParaSaberMais"width="600" height="350" src="https://www.youtube.com/embed/B0vGDfuWhfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>    
+    </section>  
+
+    <h3>Envie uma carta online para Mae Carol Jemison:</h3>
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="campo_nome" minlength="3"/>
+        </div>
+        
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" class="campo_mensagem" rows="20" cols="10" minlength="15"></textarea>
+        </div>
+    
+        <div class="button">
+            <button id="button" type="submit">Enviar mensagem</button>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <span class="footer__texto">
+            @KELLY KILMA, 2023.
+        </span>
+    </footer>
+
+
+</body>
+</html>
