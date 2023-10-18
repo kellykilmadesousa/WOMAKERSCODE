@@ -2,8 +2,11 @@ body {
     background-color: rgb(48, 48, 126);
     text-align: center;
     font-family: 'Cormorant Infant', sans-serif;
+    text-shadow: 2px 2px 5px #df3ff4;;
     color: white;
+    font-size: medium;
     margin: 0px 0px 30px 0px;
+    
 }
 
 p {
@@ -15,16 +18,19 @@ p {
 h1{
     font-size: 55px;
     font-weight: 300;
+    font-family: 'Dancing Script', cursive;
 }
   
 h2{
     font-size: 40px;
     color: #c2b60d;
+    font-family: 'Dancing Script', cursive;
 }
 
 h3{
-  font-size: 25px;
-  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px 5px #820e91;;
   color: #c2b60d;
 }
   
@@ -86,6 +92,7 @@ a{
   max-width: 90%;
   margin: 0 auto;
   width: 0 auto;
+  border-radius: 3px;
   }
 
 .principal a {
@@ -96,7 +103,7 @@ a{
 }
 
 .principal a:hover {
-  color: rgb(225, 165, 13);
+  color: #c2b60d;
   text-decoration: none;
   font-weight: normal;
 }
@@ -112,7 +119,7 @@ a{
   min-height: 150px;
   align-items: center;
   margin-bottom: 40px;
-  border-radius: 20px;
+
 }
 
 .footer{
@@ -124,38 +131,64 @@ a{
   box-sizing: border-box;
 }
 
-.footer__texto{
-  font-size: 18px;
-  font-weight: 500;
-  color: #f2f0ee;
-  display: flex;
-  align-items: center;
+.icone{
+  width: 40px;
+}
+
+.footer__links{
+  width: 15%;
+  height: 15%;
+  margin-top: 50px;
+  box-sizing: border-box; 
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 form {
   margin: 0 auto;
   width: 400px;
-  padding: 2px;
+  padding: px;
   border-radius: 2px;
 }
 
 label {
   display: inline-block;
   width: 90px;
-  text-align: right;
+  text-align: center;
   margin: 5px auto;
 }
 
 input, textarea {
   font: bold;
-  width: 300px;
+  width: 500px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .campo_nome{
   align-items: center;
   margin: 0px 0px;
   padding: 0 0px;
+  border-radius: 5px;
+}
+
+.campo_mensagem{
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0 0px;
+  border-radius: 5px;
+}
+
+.text_nome{
+  font-size: larger;
+  font-family: "Montserrat", "Montserrat", monospace;
+    text-shadow: 2px 2px 5px #df3ff4;;
+}
+
+.text_mensagem{
+  font-size: larger;
+  font-family: "Montserrat", "Montserrat", monospace;
+  text-shadow: 2px 2px 5px #df3ff4;;
 }
 
 .button {
@@ -164,7 +197,8 @@ input, textarea {
 
 button {
   margin-left: 2px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 30px;
   background-color: #e4dc72;
-  
+  border-radius: 5px; 
 }
