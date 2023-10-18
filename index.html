@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--//responsividade da página = visivel//-->
 
     <link rel="shortcut icon" type="imgage/png" href="icon/iconmonstr-star-thin.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Frank+Ruhl+Libre:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">  <!--reset = corrige alguns bugs que existem nas estilizações padrões dos navegadores-->
     <meta name="author" content="Kelly Kilma">
@@ -83,29 +87,37 @@
         </section>    
     </section>  
 
-    <h3>Envie uma carta online para Mae Carol Jemison:</h3>
+   
     <form>
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" class="campo_nome" minlength="3"/>
-        </div>
+        <h3>Envie uma carta online para Mae Carol Jemison:</h3>
         
-        <div>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" class="campo_mensagem" rows="20" cols="10" minlength="15"></textarea>
-        </div>
-    
-        <div class="button">
-            <button id="button" type="submit">Enviar mensagem</button>
-        </div>
+            <div>
+                <label for="nome" class="text_nome">Nome:</label>
+                <input type="text" id="nome" class="campo_nome" minlength="3"/>
+            </div>
+            
+            <div>
+                <label for="mensagem" class="text_mensagem">Mensagem:</label>
+                <textarea id="mensagem" class="campo_mensagem" rows="20" cols="10" minlength="15"></textarea>
+            </div>
+            <div class="button">
+                <button id="button" type="submit">Enviar mensagem</button>
+            </div>
+        
     </form>
 
     <footer class="footer">
-        <span class="footer__texto">
-            @KELLY KILMA, 2023.
-        </span>
+        <div class="footer__links">
+            <a href="https://github.com/kellykilmadesousa" class="header__link" title="me acompanhe no github" target="_blank">
+                <img class="icone" alt="github" src="icon/iconmonstr-github-1.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/kellykilma/" class="header__link" title="me acompanhe no linkedin">
+                <img class="icone" alt="linkedin" src="icon/iconmonstr-linkedin-4.svg">
+            </a>
+            <a href="https://twitter.com/iamkeesousa" class="header__link" title="me siga no twitter" target="_blank">
+                <img class="icone" alt="twitter" src="icon/iconmonstr-twitter-4.svg">
+            </a>
+        </div>  
     </footer>
-
-
 </body>
 </html>
